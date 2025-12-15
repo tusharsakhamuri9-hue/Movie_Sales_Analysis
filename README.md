@@ -31,7 +31,7 @@ The dataset used in this project contains the following attributes:
 ## 🗂 Project Structure
 The repository is organized as follows:
 
-```text
+```
 Movie_Sales_Analysis/
 │
 ├── data/
@@ -47,6 +47,8 @@ Movie_Sales_Analysis/
 │   └── Correlation_&_Advanced_Metrics.jpeg
 │
 └── README.md
+```
+---
 
 ## 🛠 Project Methodology
 
