@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 In this project, I analyzed IMDb movie sales data using Power BI to understand box office performance, audience behavior, and rating trends. The goal was to transform raw movie data into meaningful insights through interactive dashboards as part of my academic project.
 
----
+
 
 ## 🎯 Problem Statement
 The movie industry generates large volumes of data related to revenue, ratings, votes, genres, and release years. However, this data does not clearly explain what drives movie success.  
@@ -55,14 +55,48 @@ The dataset used in this project contains the following attributes:
 - Added slicers for Year and Movie Title to make the dashboard interactive
 
 ---
+## 📈 Dashboard Visualizations
 
-## 📊 Key KPIs
-- Total Revenue (Millions)
-- Total Votes
-- Average IMDb Rating
-- Average Runtime (Minutes)
-- Average Metascore
-- Total Number of Movies
+### 🔹 Movie Overview & Time Trends
+![Movie Overview](visualizations/Correlation_&_Advanced_Metrics.jpeg)
+
+**Insights:**
+- Movie releases increased steadily after 2010
+- Revenue and votes peaked between **2013–2016**
+- Average IMDb rating remained stable over the years
+- Runtime stayed consistent around 110–115 minutes
+
+---
+
+### 🔹 Genre & Rating Analysis
+![Genre Analysis](visualizations/Top_Performers_&_Box_Office_Insights.jpeg)
+
+**Insights:**
+- **Action and Adventure** genres generate the highest revenue
+- **Drama** has the highest number of movies
+- Biography and Drama genres receive higher IMDb ratings
+- Genre has a stronger impact on revenue than runtime
+
+---
+
+### 🔹 Top Performers & Box Office Insights
+![Top Performers](visualizations/Genre_&_Rating_Analysis.jpeg)
+
+**Insights:**
+- A small number of directors generate most of the revenue
+- Top movies receive both **high votes and high revenue**
+- Popular franchises dominate box office collections
+
+---
+
+### 🔹 Correlation & Advanced Analysis
+![Correlation Analysis](visualizations/Movie_Overview_&_Time_Trends.jpeg)
+
+**Insights:**
+- Strong positive correlation between **votes and revenue**
+- Higher-rated movies tend to earn more
+- Runtime alone does not guarantee box office success
+- Audience engagement is a key revenue driver
 
 ---
 
@@ -77,12 +111,11 @@ The dataset used in this project contains the following attributes:
 ---
 
 ## 📈 Visualizations Used
-- KPI Cards
+- Cards
 - Bar and Column Charts
 - Line Charts for trend analysis
 - Stacked Bar Charts
 - Donut Charts
-- Tables and Matrix visuals
 - Interactive slicers
 
 ---
