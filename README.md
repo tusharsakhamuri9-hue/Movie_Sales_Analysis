@@ -28,6 +28,26 @@ The dataset used in this project contains the following attributes:
 
 ---
 
+## 🗂 Project Structure
+The repository is organized as follows:
+
+```text
+Movie_Sales_Analysis/
+│
+├── data/
+│   └── IMDB-Movie-Data.csv
+│
+├── reports/
+│   └── Movie_sales_Analysis.pbix
+│
+├── visualizations/
+│   ├── Movie_Overview_&_Time_Trends.jpeg
+│   ├── Genre_&_Rating_Analysis.jpeg
+│   ├── Top_Performers_&_Box_Office_Insights.jpeg
+│   └── Correlation_&_Advanced_Metrics.jpeg
+│
+└── README.md
+
 ## 🛠 Project Methodology
 
 ### 1. Data Loading & Preparation
@@ -120,12 +140,12 @@ The dataset used in this project contains the following attributes:
 
 ---
 
-## 📌 Conclusion
-This project demonstrates how Power BI can be used to analyze movie sales data and generate meaningful insights. The analysis highlights that audience engagement, genre popularity, and ratings are key drivers of box office success. This project strengthened my skills in data cleaning, DAX, visualization, and data storytelling.
-
----
-
 ## 🛠 Tools & Technologies
 - Power BI Desktop
 - DAX (Data Analysis Expressions)
 - IMDb Movie Dataset
+
+---
+
+## 📌 Conclusion
+This project demonstrates how Power BI can be used to analyze movie sales data and generate meaningful insights. The analysis highlights that audience engagement, genre popularity, and ratings are key drivers of box office success. This project strengthened my skills in data cleaning, DAX, visualization, and data storytelling.
